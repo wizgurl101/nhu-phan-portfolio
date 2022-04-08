@@ -1,6 +1,11 @@
 h1 {
-  font-size: 4rem;
+  font-size: 3rem;
 }
+
+h2 {
+  font-size: 2.5rem;
+}
+
 p {
   font-size: 1.5rem;
 }
@@ -25,6 +30,38 @@ section {
   background-color: #7c0b3a;
 }
 
+.welcome-section {
+  padding-top: 0.5 rem !important;
+}
+
+.welcome-greeting {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-greeting > img {
+  border-radius: 50%;
+}
+
+.welcome-greeting > h1 {
+  margin-bottom: 0.5rem;
+}
+
+/* blob morph animation */
+.blob-motion {
+  position: absolute;
+  transform: translateY(-20%);
+  z-index: 0;
+}
+
+.blobs {
+  width: 90%;
+  background: url("./blobs.svg") no-repeat bottom / cover;
+}
+
+/* layered wave divider */
 .spacer {
   aspect-ratio: 960/300;
   width: 100%;
@@ -43,19 +80,4 @@ section {
 
 .flip {
   transform: rotate(180deg);
-}
-
-.blob-motion {
-  position: absolute;
-  transform: translateY(-20%);
-  z-index: 0;
-}
-
-.welcome-greeting {
-  z-index: 1;
-}
-
-.blobs {
-  width: 90%;
-  background: url("./blobs.svg") no-repeat bottom / cover;
 }
