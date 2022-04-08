@@ -21,6 +21,10 @@ section {
   padding-top: 100px;
 }
 
+.dark-redish-pink {
+  background-color: #7c0b3a;
+}
+
 .spacer {
   aspect-ratio: 960/300;
   width: 100%;
@@ -29,12 +33,12 @@ section {
   background-size: cover;
 }
 
-.layer1 {
-  background-image: url("./layered-waves-top-3_2.svg");
+.layer-wave-top {
+  background-image: url("./resources/layered-wave-top.svg");
 }
 
-.layer2 {
-  background-image: url("./layered-waves-bottom-3_2.svg");
+.layer-wave-bottom {
+  background-image: url("./resources/layered-wave-bottom.svg");
 }
 
 .flip {
@@ -52,6 +56,6 @@ section {
 }
 
 .blobs {
-  width: 100%;
+  width: 90%;
   background: url("./blobs.svg") no-repeat bottom / cover;
 }
