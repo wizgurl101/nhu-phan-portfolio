@@ -1,3 +1,9 @@
+html {
+  box-sizing: content-box;
+  margin: 0;
+  width: 100%;
+}
+
 h1 {
   font-size: 3rem;
 }
@@ -13,7 +19,7 @@ body {
   margin: 0;
   font-family: "Prompt", sans-serif;
   color: white;
-  background: #151a1e;
+  background: #151515;
   overflow-x: hidden;
 }
 
@@ -23,11 +29,14 @@ section {
   flex-direction: column;
   align-items: center;
   min-height: 400px;
-  padding-top: 100px;
 }
 
 .dark-redish-pink {
   background-color: #7c0b3a;
+}
+
+.dark {
+  background-color: #151a1e;
 }
 
 .welcome-section {
